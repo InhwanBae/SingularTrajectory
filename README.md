@@ -28,7 +28,7 @@
 
 ## 1️⃣ SingularTrajectory Model 1️⃣
 
-Coming Soon! [will be released after ECCV2024 submission :)]
+Coming Soon! (Please check our [project page](https://inhwanbae.github.io/publication/singulartrajectory/) :)
 
 
 ## 📖 Citation
