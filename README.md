@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://inhwanbae.github.io/publication/singulartrajectory/"><strong><code>Project Page</code></strong></a>
-  <a href="https://arxiv.org/abs/0000.00000"><strong><code>CVPR Paper [Coming Soon]</code></strong></a>
+  <a href="https://arxiv.org/abs/2403.18452"><strong><code>CVPR Paper</code></strong></a>
   <a href="https://github.com/InhwanBae/SingularTrajectory"><strong><code>Source Code</code></strong></a>
   <a href="#-citation"><strong><code>Related Works</code></strong></a>
 </p>
@@ -28,7 +28,8 @@
 
 ## 1️⃣ SingularTrajectory Model 1️⃣
 
-Coming Soon! (Please check our [project page](https://inhwanbae.github.io/publication/singulartrajectory/) :)
+- [x] 3/27 Paper [released](https://arxiv.org/abs/2403.18452)!
+- [ ] Source code will be released shortly. (Please check our [project page](https://inhwanbae.github.io/publication/singulartrajectory/) :)
 
 
 ## 📖 Citation
