@@ -1,0 +1,29 @@
+{
+	"dataset_dir": "./datasets/",
+	"checkpoint_dir": "./checkpoints/",
+	"task": "stochastic",
+
+	"dataset": "zara2",
+	"traj_dim": 2,
+	"obs_len": 8,
+	"obs_step": 10,
+	"pred_len": 12,
+	"pred_step": 10,
+	"skip": 1,
+
+	"k": 4,
+	"static_dist": 0.3,
+	"num_samples": 20,
+	"obs_svd": true,
+	"pred_svd": true,
+	"baseline": "transformerdiffusion",
+
+	"batch_size": 512,
+	"num_epochs": 256,
+	"lr": 0.001,
+	"weight_decay": 0.0001,
+	"clip_grad": 10,
+	"lr_schd": true,
+	"lr_schd_step": 64,
+	"lr_schd_gamma": 0.5
+}
