@@ -1,4 +1,4 @@
-<h2 align="center">SingularTrajectory: Universal Trajectory Predictor using Diffusion Model</h2>
+<h2 align="center">SingularTrajectory: Universal Trajectory Predictor Using Diffusion Model</h2>
 <p align="center">
   <a href="https://InhwanBae.github.io/"><strong>Inhwan Bae</strong></a>
   ·  
