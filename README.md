@@ -41,17 +41,17 @@
 
 **Dataset**
 <br>Preprocessed [ETH](https://data.vision.ee.ethz.ch/cvl/aem/ewap_dataset_full.tgz) and [UCY](https://graphics.cs.ucy.ac.cy/research/downloads/crowd-data) datasets are released in this repository. 
-The train/validation/test splits are the same as those fond in [Social-GAN](https://github.com/agrimgupta92/sgan).
+The train/validation/test splits are the same as those found in [Social-GAN](https://github.com/agrimgupta92/sgan).
 
 You can download the dataset by running the following script.
 ```bash
-./scripts/download_datasets.sh
+./script/download_datasets.sh
 ```
 
 ### Train SingularTrajectory
 To train our SingularTrajectory on each task using the ETH and UCY datasets simultaneously, we provide a bash script `train.sh` for simplified execution.
 ```bash
-./scripts/train.sh -p <config_path> -t <experiment_tag> -d <space_seperated_dataset_string> -i <space_seperated_gpu_id_string>
+./script/train.sh -p <config_path> -t <experiment_tag> -d <space_seperated_dataset_string> -i <space_seperated_gpu_id_string>
 ```
 
 **Examples**
@@ -89,13 +89,13 @@ python trainval.py --cfg ./config/{task}/singulartrajectory-transformerdiffusion
 We provide pretrained models in the [**release section**](https://github.com/InhwanBae/SingularTrajectory/releases/tag/v1.0). 
 You can download all pretrained models at once by running the script. This will download the 80 SingularTrajectory models.
 ```bash
-./scripts/download_pretrained_models.sh
+./script/download_pretrained_models.sh
 ```
 
 ### Evaluate SingularTrajectory
 To evaluate our EigenTrajectory at once, we provide a bash script `test.sh` for a simplified execution.
 ```bash
-./scripts/test.sh -p <config_path> -t <experiment_tag> -d <space_seperated_dataset_string> -i <space_seperated_gpu_id_string>
+./script/test.sh -p <config_path> -t <experiment_tag> -d <space_seperated_dataset_string> -i <space_seperated_gpu_id_string>
 ```
 
 **Examples**
