@@ -17,20 +17,21 @@
 </p>
 
 <div align='center'>
-  <br><img src="img/singulartrajectory-model.png" width=70%>
+  <br><img src="img/singulartrajectory-model.webp" width=70%>
   <br>An overview of our SingularTrajectory framework.
 </div>
 
-<br>This repository contains the code for the SingularTrajectory model, designed to handle five different trajectory prediction benchmarks.
-<br>Our unified framework ensures the general dynamics of human movements across various input modalities and trajectory lengths.
+<!--<br>This repository contains the code for the SingularTrajectory model, designed to handle five different trajectory prediction benchmarks.-->
+<!--<br>Our unified framework ensures the general dynamics of human movements across various input modalities and trajectory lengths.-->
+<br>**Summary**: A **unified framework** that models **general human movement dynamics** across **various input modalities** and **trajectory lengths**, achieving SOTA results on five trajectory prediction tasks.
 
 <br>
 
 ## 1️⃣ SingularTrajectory Model 1️⃣
-* A diffusion-based universal trajectory prediction framework designed to bridge the performance gap across five tasks.
-* A Singular space is constructed to unify various representations of human dynamics in the associated tasks.
-* An adaptive anchor and cascaded denoising process correct initial prototype paths that are placed incorrectly.
-* Our model outperforms on five public benchmarks: Deterministic, Stochastic, Domain Adaptation, Momentary Observation, and Few-Shot.
+* **Diffusion Model**: A diffusion-based universal trajectory prediction framework designed to bridge the performance gap across five tasks.
+* **Singular Space**: A Singular space is constructed to unify various representations of human dynamics in the associated tasks.
+* **Adaptive Anchor**: An adaptive anchor and cascaded denoising process correct initial prototype paths that are placed incorrectly.
+* **SOTA Performance**: Our model outperforms on five public benchmarks: Deterministic, Stochastic, Domain Adaptation, Momentary Observation, and Few-Shot.
  
 <br>
 
@@ -133,6 +134,7 @@ python trainval.py --test --cfg ./config/{task}/singulartrajectory-transformerdi
 ## 📖 Citation
 If you find this code useful for your research, please cite our trajectory prediction papers :)
 
+[**`🏢🚶‍♂️ CrowdES (CVPR'25) 🏃‍♀️🏠`**](https://github.com/InhwanBae/Crowd-Behavior-Generation) **|**
 [**`💬 LMTrajectory (CVPR'24) 🗨️`**](https://github.com/InhwanBae/LMTrajectory) **|**
 [**`1️⃣ SingularTrajectory (CVPR'24) 1️⃣`**](https://github.com/InhwanBae/SingularTrajectory) **|**
 [**`🌌 EigenTrajectory (ICCV'23) 🌌`**](https://github.com/InhwanBae/EigenTrajectory) **|** 
@@ -149,10 +151,17 @@ If you find this code useful for your research, please cite our trajectory predi
   year={2024}
 }
 ```
-<details>
+<details open>
   <summary>More Information (Click to expand)</summary>
 
 ```bibtex
+@inproceedings{bae2025crowdes,
+  title={Continuous Locomotive Crowd Behavior Generation},
+  author={Bae, Inhwan and Lee, Junoh and Jeon, Hae-Gon},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2025}
+}
+
 @inproceedings{bae2024lmtrajectory,
   title={Can Language Beat Numerical Regression? Language-Based Multimodal Trajectory Prediction},
   author={Bae, Inhwan and Lee, Junoh and Jeon, Hae-Gon},
